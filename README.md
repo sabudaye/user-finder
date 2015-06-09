@@ -1,5 +1,5 @@
 ###Description
-Finder should find 2 skipped numbers inside sorted array of natural numbers using Array#bsearch
+Finder should search users by hash of attributes
 
 ###Usage
 ```
