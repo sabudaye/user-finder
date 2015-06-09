@@ -3,7 +3,7 @@ require 'gdbm'
 
 describe Finder do
 
-  let(:limit) { 100000 }
+  let(:limit) { 1000 }
   let!(:finder) { Finder.new(build_list(:user, limit)) }
 
   it "should search by options" do
