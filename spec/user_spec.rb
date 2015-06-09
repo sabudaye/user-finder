@@ -2,9 +2,13 @@ require 'spec_helper'
 
 describe User do
 
-  let!(:users) { build_list(:user, 10) }
+  let!(:user) { build(:user) }
 
   it "should build users list" do
-    expect(users).not_to be nil
+    expect(user.respond_to?(:age)).to be true
+    expect(user.respond_to?(:height)).to be true
+    expect(user.respond_to?(:amount)).to be true
+    expect(user.respond_to?(:index)).to be true
+    expect(user.respond_to?(:gender)).to be true
   end
 end

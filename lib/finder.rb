@@ -1,5 +1,4 @@
 require 'user'
-require 'pry-byebug'
 
 class Finder
   def initialize(data)
